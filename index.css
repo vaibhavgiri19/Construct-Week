@@ -218,6 +218,10 @@
     border-bottom: 1px solid #ddd;
     padding-bottom: 15px;
     margin-bottom: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+.product-card img:hover{
+    transform: scale(0.9)
 }
 
 .product-card h3 {
@@ -353,7 +357,11 @@
 .product-box img{
     width: 100%;
     height: auto;
+    transition: transform 0.3s ease-in-out;
     
+}
+.product-box img:hover{
+    transform: scale(0.9);
 }
 
 .product-box p{
